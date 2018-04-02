@@ -1,0 +1,43 @@
+@import 'src/assets/scss/_variables.scss';
+
+tbody{
+    font-size: $base-font-size;
+    color: $secondary-action-color;
+}
+
+thead {
+    color: $primary-brand-color;
+}
+
+.lead-text{
+    color: $primary-brand-color;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.primary-button{
+    color: $button-text-color;
+    background-color: $secondary-action-color;
+    font-size: $buttonFontSize;
+    width: $button-width;
+    padding: $button-padding;
+}
+
+.button, .yes, .no, .idontknow{
+    color: $button-text-color;
+    background-color: $secondary-action-color;
+    font-size: $buttonFontSize;
+    width: $button-width;
+    padding: $button-padding;
+}
+
+.yes {
+    background-color: $primary-brand-color;
+}
+
+.no {
+    background-color: $secondary-action-color;
+}
+.idontknow {
+    background-color: $important-action-color;
+}

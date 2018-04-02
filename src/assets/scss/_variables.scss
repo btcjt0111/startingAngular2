@@ -1,0 +1,17 @@
+$primary-brand-color: #00c3ff;
+$secondary-action-color: #ae00ff;
+$important-action-color: #ff00c8;
+$button-text-color: white;
+$base-font-size: 16pt;
+$buttonFontSize: 30pt;
+$button-width: 200px;
+$button-padding: 10px 30px 10px 20px;
+
+@mixin standard-text($bgparam)
+{    
+    background-color: $bgparam;
+    color: $button-text-color;
+    font-size: $buttonFontSize;
+    width: $button-width;
+    padding: $button-padding;
+}

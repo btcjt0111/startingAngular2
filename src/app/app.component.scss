@@ -1,0 +1,34 @@
+@import 'src/assets/scss/_variables.scss';
+
+a{
+    @include standard-text($important-action-color);
+}
+
+p{
+    @include standard-text($secondary-action-color);
+}
+
+h1{
+    @extend a;
+}
+
+ul.contacts{
+    background-color: green;
+    list-style-type: none;
+    padding: 0;
+    li{
+        article{
+            border: solid 5px;
+            background-color: $primary-brand-color;
+            margin-bottom: 10px;
+
+            header{
+                font-style: italic;
+            }
+            p {
+                color: $secondary-action-color;
+            }
+
+        }
+    }
+}
